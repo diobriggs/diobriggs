@@ -1,0 +1,102 @@
+body {
+   background-image: url("background.jpg");
+   margin: 0;
+   padding: 0;
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   font-family: sans-serif;
+}
+
+.title_div {
+   text-align: center;
+   color: gold;
+   border-width: 2px;
+   border-style: solid;
+   border-color: gold;
+   border-radius: 5px;
+   margin: 5px;
+   padding: 10px;
+}
+
+.main-content {
+   padding: 20px;
+}
+
+.photo-of-me {
+   text-align: center;
+}
+
+img {
+   width: 150px;
+   height: 150px;
+   border-radius: 50%;
+   border: 3px solid gold;
+   display: block;
+   margin: 0 auto;
+}
+
+th, td {
+   text-align: left;
+   padding: 8px;
+}
+
+tr:nth-child(even) {
+   background-color: grey;
+}
+
+ul {
+   list-style-type: disc;
+   padding-left: 20px;
+   margin-top: 20px;
+}
+
+.flex-container {
+   display: flex;
+   justify-content: space-around;
+   gap: 20px;
+}
+
+.content-box {
+   flex: 1;
+   padding: 15px;
+   background-color: gold;
+   border-radius: 8px;
+}
+
+ol, ul {
+   margin-top: 10px;
+}
+
+h3 {
+   text-align: center;
+}
+
+.quote{
+    border-style: solid;
+    border-color: black;
+    font-style: italic;
+    color: gold;
+    text-align: center;
+    margin: 20px;
+}
+
+.footer{
+    border-style: solid;
+    border-color: black;
+    font-style: italic;
+    background-color: gold;
+    text-align: center;
+    margin: 20px;
+
+}
+
+a:hover {
+    color: green;
+}
+
+.red-bold {
+    color: red;
+    font-weight: bold;
+}
